@@ -162,11 +162,11 @@ Suggested README screenshots to add after deployment:
 
 ## GitHub Repository Link
 
-- Add your repository URL here after pushing the project
+- https://github.com/dharmi-11/trendora-ai-commerce
 
 ## Live Deployment Link
 
-- Add your Vercel deployment URL here after publishing the project
+- https://trendora-ai-commerce.vercel.app
 
 ## Future Scope
 

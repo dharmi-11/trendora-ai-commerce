@@ -2,15 +2,12 @@
 
 import { MoonStar, SunMedium } from "lucide-react";
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
+
+import { useHydrated } from "@/hooks/use-hydrated";
 
 export function ThemeToggle() {
-  const [mounted, setMounted] = useState(false);
+  const mounted = useHydrated();
   const { theme, setTheme } = useTheme();
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   if (!mounted) {
     return <div className="h-11 w-11 rounded-full border" />;
